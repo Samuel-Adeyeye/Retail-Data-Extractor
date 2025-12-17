@@ -1,7 +1,7 @@
 # Retail Data Extractor - Project Documentation
 
 ## 1. Project Overview
-The **Retail Data Extractor** is a web application designed to automate the extraction of product information from retail leaflets. It leverages **Google's Gemini model** for multimodal analysis (Vision + Text) to identify products, prices, brands, and other metadata directly from images.
+The **Retail Data Extractor** is a web application designed to automate the extraction of product information from retail leaflets. It leverages **Groq (Llama 3.2 Vision)** for fast, multimodal analysis to identify products, prices, brands, and other metadata directly from images.
 
 ## 2. Architecture & Technology Stack
 I chose a **Client-Server** architecture for this solution to meet the "runnable Python application" requirement.
@@ -10,9 +10,9 @@ I chose a **Client-Server** architecture for this solution to meet the "runnable
     -   Handles the UI, image upload, and data visualization.
 -   **Backend**: **Python (FastAPI)**.
     -   Exposes a REST API (`POST /extract`) to process images.
-    -   Interacts with **Google's Gemini model** (`gemini-2.0-flash`) using the `google-genai` Python SDK.
--   **AI Integration**: **Google Gemini**.
-    -   Performs the multimodal analysis (Vision + Text).
+    -   Interacts with **Groq** (`llama-3.2-11b-vision-preview`) via the `groq` Python SDK.
+-   **AI Integration**: **Groq**.
+    -   Performs the multimodal analysis (Vision + Text) using Llama 3.2.
 
 ## 3. Step-by-Step Implementation Process
 
@@ -63,9 +63,9 @@ I chose a **Client-Server** architecture for this solution to meet the "runnable
 
 5.  Create a `.env` file in the root directory (or use the one in `retail-data-extractor/`):
     ```env
-    VITE_GOOGLE_GEMINI_API_KEY=your_api_key_here
+    VITE_Groq_API_KEY=your_groq_api_key_here
     ```
-    (Note: The backend also reads this file).
+    (Note: Get your key from [console.groq.com](https://console.groq.com/keys)).
 
 ### Step 2: Start the Frontend
 1.  Open a new terminal and navigate to the project root (`retail-data-extractor`).
@@ -86,5 +86,5 @@ I chose a **Client-Server** architecture for this solution to meet the "runnable
 4.  View the results in the table and export as JSON.
 
 ## 5. Troubleshooting
-- **API Quota Exceeded (429)**: The app uses the free tier of Gemini 2.0 Flash. If you see this error, please wait a minute before trying again.
-- **ImportError**: If you see an import error for `google.genai`, ensure you have activated the venv and installed requirements: `pip install -r requirements.txt`.
+- **ModuleNotFoundError**: If you see an error about `groq`, ensure you have installed dependencies: `pip install -r requirements.txt`.
+- **429 Errors**: Groq has generous free limits, but if you hit them, the app works with retry logic.
