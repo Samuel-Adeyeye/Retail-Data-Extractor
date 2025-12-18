@@ -1,0 +1,110 @@
+[
+  {
+    "id": "p1",
+    "name": "Brussels Sprouts",
+    "price": "$3.49",
+    "description": "Brussels Sprouts",
+    "brand": "Unknown",
+    "discount": "Buy 1 Get 1 Free",
+    "unit": "500g Pack"
+  },
+  {
+    "id": "p2",
+    "name": "Strawberries",
+    "price": "$2.49",
+    "description": "Strawberries",
+    "brand": "Unknown",
+    "discount": "Buy 1 Get 1 Free",
+    "unit": "250g Pack"
+  },
+  {
+    "id": "p3",
+    "name": "Sweet Corn",
+    "price": "$3.99",
+    "description": "Sweet Corn",
+    "brand": "Unknown",
+    "discount": "Buy 1 Get 1 Free",
+    "unit": "6 Pack"
+  },
+  {
+    "id": "p4",
+    "name": "Blueberries",
+    "price": "$3.99",
+    "description": "Blueberries",
+    "brand": "Unknown",
+    "discount": null,
+    "unit": "150g Pack"
+  },
+  {
+    "id": "p5",
+    "name": "White Flat Mushrooms",
+    "price": "$4.99",
+    "description": "White Flat Mushrooms",
+    "brand": "Unknown",
+    "discount": "Buy 1 Get 1 Free",
+    "unit": "200g Pack"
+  },
+  {
+    "id": "p6",
+    "name": "Aussie Asparagus",
+    "price": "$2.69",
+    "description": "Asparagus",
+    "brand": "Unknown",
+    "discount": null,
+    "unit": null
+  },
+  {
+    "id": "p7",
+    "name": "Marinated RSPCA Approved Lamb Shoulder Chops",
+    "price": "$7.69",
+    "description": "Lamb Shoulder Chops",
+    "brand": "Freedom Farms",
+    "discount": null,
+    "unit": "1.5kg"
+  },
+  {
+    "id": "p8",
+    "name": "Schneiders Free Range Food Ready Schnitzels",
+    "price": "$8.49",
+    "description": "Schnitzels",
+    "brand": "Schneiders",
+    "discount": null,
+    "unit": "600g"
+  },
+  {
+    "id": "p9",
+    "name": "Green Beans",
+    "price": "$8.99",
+    "description": "Green Beans",
+    "brand": "Unknown",
+    "discount": null,
+    "unit": "Value Pack"
+  },
+  {
+    "id": "p10",
+    "name": "Fresh Tasmanian Salmon Fillets",
+    "price": "$24.99",
+    "description": "Salmon Fillets",
+    "brand": "The Fishmonger",
+    "discount": null,
+    "unit": "700g"
+  },
+  {
+    "id": "p11",
+    "name": "Arnott's Tim Tam",
+    "price": "$2.49",
+    "description": "Tim Tam",
+    "brand": "Arnott's",
+    "discount": null,
+    "unit": "175g/200g"
+  },
+  {
+    "id": "p12",
+    "name": "Coca-Cola",
+    "price": "$9.49",
+    "description": "Coca-Cola",
+    "brand": "Coca-Cola",
+    "discount": null,
+    "unit": null
+  }
+]

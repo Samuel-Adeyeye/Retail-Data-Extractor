@@ -91,7 +91,7 @@ async def extract_data(file: UploadFile = File(...)):
                     ],
                 }
             ],
-            model="llama-3.2-11b-vision-preview",
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
             temperature=0, # Low temperature for more deterministic JSON
             max_tokens=2048,
         )

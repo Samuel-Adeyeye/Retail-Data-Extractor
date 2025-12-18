@@ -1,0 +1,83 @@
+[
+  {
+    "id": "p1",
+    "name": "Hillcrest Rice Cake Bars",
+    "price": "$1.99",
+    "description": "Gluten-free rice cake bars",
+    "brand": "Hillcrest",
+    "discount": null,
+    "unit": "5pk/90g"
+  },
+  {
+    "id": "p2",
+    "name": "The Cake Stall Banana Bread",
+    "price": "$4.49",
+    "description": "Moist banana bread",
+    "brand": "The Cake Stall",
+    "discount": null,
+    "unit": "5pk/500g"
+  },
+  {
+    "id": "p3",
+    "name": "El Tora Black Beans",
+    "price": "$1.29",
+    "description": "Canned black beans",
+    "brand": "El Tora",
+    "discount": null,
+    "unit": "400g"
+  },
+  {
+    "id": "p4",
+    "name": "Brooklea Vanilla Custard Pouch",
+    "price": "99c",
+    "description": "Vanilla custard",
+    "brand": "Brooklea",
+    "discount": null,
+    "unit": "70g"
+  },
+  {
+    "id": "p5",
+    "name": "Organic Kombucha",
+    "price": "$2.49",
+    "description": "Organic kombucha drink",
+    "brand": "Unknown",
+    "discount": null,
+    "unit": "330ml"
+  },
+  {
+    "id": "p6",
+    "name": "International Cuisine Health & Vitality Lamb Hot Pot",
+    "price": "$2.79",
+    "description": "Lamb hot pot meal",
+    "brand": "International Cuisine",
+    "discount": null,
+    "unit": "290g"
+  },
+  {
+    "id": "p7",
+    "name": "Power Force Bright & Clean Bathroom Cleaning Wipes",
+    "price": "$3.49",
+    "description": "Bathroom cleaning wipes",
+    "brand": "Power Force",
+    "discount": null,
+    "unit": "100pk"
+  },
+  {
+    "id": "p8",
+    "name": "Colgate Total Toothpaste",
+    "price": "$2.09",
+    "description": "Toothpaste",
+    "brand": "Colgate",
+    "discount": null,
+    "unit": "80g"
+  },
+  {
+    "id": "p9",
+    "name": "Just Organic Passata",
+    "price": "$1.99",
+    "description": "Organic passata",
+    "brand": "Just Organic",
+    "discount": null,
+    "unit": "700g"
+  }
+]

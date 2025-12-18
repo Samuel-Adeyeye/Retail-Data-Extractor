@@ -38,13 +38,13 @@ export const DataTable: React.FC<DataTableProps> = ({ products, onProductClick }
       <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse">
           <thead>
-            <tr style={{ borderBottom: '1px solid var(--border)', backgroundColor: 'rgba(0,0,0,0.2)' }}>
-              <th className="p-4 text-sm font-medium text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem' }}>Product Name</th>
-              <th className="p-4 text-sm font-medium text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem' }}>Brand</th>
-              <th className="p-4 text-sm font-medium text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem' }}>Unit</th>
-              <th className="p-4 text-sm font-medium text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem' }}>Price</th>
-              <th className="p-4 text-sm font-medium text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem' }}>Discount</th>
-              <th className="p-4 text-sm font-medium text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem' }}>Actions</th>
+            <tr style={{ borderBottom: '1px solid var(--border)', backgroundColor: 'rgba(0,0,0,0.3)' }}>
+              <th className="p-4 text-sm font-semibold text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem', fontWeight: 600 }}>Product Name</th>
+              <th className="p-4 text-sm font-semibold text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem', fontWeight: 600 }}>Brand</th>
+              <th className="p-4 text-sm font-semibold text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem', fontWeight: 600 }}>Unit</th>
+              <th className="p-4 text-sm font-semibold text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem', fontWeight: 600 }}>Price</th>
+              <th className="p-4 text-sm font-semibold text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem', fontWeight: 600 }}>Discount</th>
+              <th className="p-4 text-sm font-semibold text-text-muted" style={{ color: 'var(--text-muted)', padding: '1rem', fontWeight: 600 }}>Actions</th>
             </tr>
           </thead>
           <tbody>

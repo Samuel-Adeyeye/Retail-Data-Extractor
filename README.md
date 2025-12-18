@@ -1,7 +1,7 @@
 # Retail Data Extractor - Project Documentation
 
 ## 1. Project Overview
-The **Retail Data Extractor** is a web application designed to automate the extraction of product information from retail leaflets. It leverages **Groq (Llama 3.2 Vision)** for fast, multimodal analysis to identify products, prices, brands, and other metadata directly from images.
+The **Retail Data Extractor** is a web application designed to automate the extraction of product information from retail leaflets. It leverages **Groq (Llama 4 Scout)** for fast, multimodal analysis to identify products, prices, brands, and other metadata directly from images.
 
 ## 2. Architecture & Technology Stack
 I chose a **Client-Server** architecture for this solution to meet the "runnable Python application" requirement.
@@ -10,9 +10,9 @@ I chose a **Client-Server** architecture for this solution to meet the "runnable
     -   Handles the UI, image upload, and data visualization.
 -   **Backend**: **Python (FastAPI)**.
     -   Exposes a REST API (`POST /extract`) to process images.
-    -   Interacts with **Groq** (`llama-3.2-11b-vision-preview`) via the `groq` Python SDK.
+    -   Interacts with **Groq** (`meta-llama/llama-4-scout-17b-16e-instruct`) via the `groq` Python SDK.
 -   **AI Integration**: **Groq**.
-    -   Performs the multimodal analysis (Vision + Text) using Llama 3.2.
+    -   Performs the multimodal analysis (Vision + Text) using Llama 4 Scout.
 
 ## 3. Step-by-Step Implementation Process
 

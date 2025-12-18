@@ -50,7 +50,7 @@ function App() {
         <section>
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-xl font-semibold text-text-main" style={{ fontSize: '1.25rem', fontWeight: 600 }}>
-              Extracted Data
+              Extracted Data: 
               {products.length > 0 && (
                 <span className="ml-3 text-sm font-normal text-text-muted px-2 py-1 rounded-md bg-bg-surface border border-border">
                   {products.length} items found
