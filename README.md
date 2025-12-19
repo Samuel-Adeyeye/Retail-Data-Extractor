@@ -24,11 +24,11 @@ I chose a **Client-Server** architecture for this solution to meet the "runnable
 ### Phase 2: Python Backend (FastAPI)
 1.  **Server Setup**: Created a `backend/` directory with a FastAPI application.
 2.  **API Endpoint**: Implemented `POST /extract` to accept image uploads.
-3.  **Gemini Integration**: Configured the backend to send the image to Gemini and parse the JSON response.
+3.  **Groq Integration**: Configured the backend to send the image to Groq and parse the JSON response.
 4.  **CORS**: Configured Cross-Origin Resource Sharing to allow the frontend to communicate with the backend.
 
 ### Phase 3: Frontend Integration
-1.  **Service Layer**: Updated the frontend service to send `FormData` to the Python backend instead of calling Gemini directly.
+1.  **Service Layer**: Updated the frontend service to send `FormData` to the Python backend instead of calling Groq directly.
 2.  **Data Wiring**: Connected the API response to the React state.
 
 ### Phase 4: Refinement & Polish
@@ -82,7 +82,7 @@ I chose a **Client-Server** architecture for this solution to meet the "runnable
 ### Step 3: Usage
 1.  Drag a leaflet image into the upload zone.
 2.  The frontend will send the image to the Python backend.
-3.  The backend will process it with Gemini and return the data.
+3.  The backend will process it with Groq and return the data.
 4.  View the results in the table and export as JSON.
 
 ## 5. Troubleshooting
